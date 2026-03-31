@@ -19,4 +19,4 @@ jobs:
       - name: Deploy
         run: |
           echo "Deploying..."
-          export AWS_SECRET_ACCESS_KEY=1234567
+          export AWS_SECRET_ACCESS_KEY=1234567890
