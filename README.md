@@ -14,4 +14,4 @@ This project simulates real-world DevOps mistakes so the agent can:
 
 ---
 
-## 📦 Project Structure #####
+## 📦 Project Structure ###
