@@ -7,4 +7,4 @@ def home():
     return "Welcome to Athiva Hackathon'26!"
 
 if __name__ == "__main__":
-            app.run(host="127.0.0.1", port=800000)
+            app.run(host="127.0.0.1", port=8000)
