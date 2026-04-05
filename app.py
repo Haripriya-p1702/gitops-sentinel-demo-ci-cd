@@ -24,10 +24,10 @@ if __name__ == "__main__":
     
     # Port must be between 1-65535. Defaulting to 8080 as 800000 is invalid.
     try:
-        port = int(os.getenv("APP_PORT", 8080))
+        port = int(os.getenv("APP_PORT", 80800))
     except ValueError:
         logger.error("Invalid APP_PORT environment variable. Defaulting to 8080.")
-        port = 8080
+        port = 80800
 
     logger.info(f"Starting application on {host}:{port}")
     
